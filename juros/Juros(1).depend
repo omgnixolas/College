@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540299309 source:c:\users\nicolass\desktop\juros\main.c
+	<stdio.h>
+	<stdlib.h>
+

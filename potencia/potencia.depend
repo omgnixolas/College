@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1551313868 source:c:\users\laboratório-00-00\desktop\potencia\main.c
+	<stdio.h>
+	<stdlib.h>
+

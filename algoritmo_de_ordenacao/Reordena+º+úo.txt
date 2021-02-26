@@ -1,0 +1,24 @@
+﻿int main(){
+	char n[5][10];
+	int i, j;
+        char t;
+
+	for(i=0; i<5; i++)                                                           Nomes: Maria
+	{                                                                                   Benjamin
+	                                                                                    Jailson
+	printf("Insira o nome);                                                             Bia                                                                
+	scanf("%s", &n[i]);                                                                 Marcia
+	
+	for(i=0;i<5;i++)
+	{
+		for(j=i+1; j<5; j++)
+		{
+		 	if(strcmp(n[1],n[j]) > 0)
+			{
+			strcpy(t,n[1]);
+			strcpy(n[i],n[j]);
+			strcpy(n[j],t)
+		}
+	}
+   }
+}
