@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('ProductSans-Regular.woff2') format('woff2'),
+        url('ProductSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'Product Sans';
+}
+table, th, td{
+    border: 2px solid black;
+    text-align: left;
+    border-collapse: collapse;   
+    
+}
+table, th{
+    text-align: center;
+   
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
